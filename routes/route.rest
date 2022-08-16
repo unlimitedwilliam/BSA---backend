@@ -1,0 +1,12 @@
+GET http://localhost:3001/authors/1
+
+###
+POST http://localhost:3001/books
+Content-Type: application/json
+
+{   
+    "id": 1,
+    "name": "Test", 
+    "summary": "test summary", 
+    "sold": 0
+}
